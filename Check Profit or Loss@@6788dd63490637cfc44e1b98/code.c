@@ -8,7 +8,7 @@ int main(){
     else if(cp>sp){
         printf("Loss");
     }
-    else if(cp==sp){
+    else (cp==sp){
         printf("No profit No Loss");
     }
     return 0;
