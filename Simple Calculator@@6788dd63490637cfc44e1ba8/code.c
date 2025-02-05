@@ -1,24 +1,25 @@
 #include <stdio.h>
 int main(){
-    double a,b,result;
+    int a,b;
+    float result;
     char operator;
-    scanf("%lf %lf %lf %c",&a,&b,&result,&operator);
+    scanf("%d %d %c",&a,&b,&operator);
     switch(operator){
         case '+':
         result =a+b;
-        printf("%lf",result);
+        printf("%.2f",result);
         break;
         case '-':
         result =a-b;
-        printf("%lf",result);
+        printf("%.2f",result);
         break;
         case '*':
         result=a*b;
-        printf("%lf",result);
+        printf("%.2f",result);
         break;
         case'/':
         result= a/b;
-        printf("%lf",result);
+        printf("%.2f",result);
         default:
         printf("error");
         break;
