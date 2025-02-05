@@ -2,6 +2,7 @@
 int main(){
     char light;
     scanf("%c",&light);
+    light = toupper(light)
     if(light== 'R'){
         printf("Stop");
     }
