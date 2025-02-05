@@ -16,8 +16,8 @@ int main(){
         result=a*b;
         printf("%d",result);
         break;
-        case' / ':
-        result=a/b;
+        case'/':
+        result= a/b;
         printf("%d",result);
         default:
         printf("error");
