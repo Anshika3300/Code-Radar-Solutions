@@ -3,19 +3,19 @@ int main(){
     int a,b,result;
     char operator;
     scanf("%d %d %c");
-    if(operator = '+'){
+    if(operator == '+'){
         result=a+b;
         printf("%d",result);
     }
-    else if(operator = '-'){
+    else if(operator == '-'){
         result=a-b;
         printf("%d",result);
     }
-    else if(operator = '*'){
+    else if(operator =='*'){
         result= a*b;
         printf("%d",result);
     }
-    else if(operator ='/');
+    else if(operator == '/');
     result= a/b;
     printf("%d",result);
     else{
