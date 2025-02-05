@@ -7,19 +7,19 @@ int main(){
     switch(operator){
         case '+':
         result =a+b;
-        printf("%.2f",result);
+        printf("%d",result);
         break;
         case '-':
         result =a-b;
-        printf("%.2f",result);
+        printf("%d",result);
         break;
         case '*':
         result=a*b;
-        printf("%.2f",result);
+        printf("%d",result);
         break;
         case'/':
         result= a/b;
-        printf("%.2f",result);
+        printf("%d",result);
         default:
         printf("error");
         break;
