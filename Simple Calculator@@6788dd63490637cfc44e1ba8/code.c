@@ -20,6 +20,7 @@ int main(){
         printf("%d",result);
         default:
         printf("error");
+        break;
     }
     return 0;
 }
