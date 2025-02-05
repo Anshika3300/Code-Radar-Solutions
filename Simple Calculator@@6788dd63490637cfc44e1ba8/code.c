@@ -15,7 +15,8 @@ int main(){
         result= a*b;
         printf("%d",result);
     }
-    else if(operator == '/'){
+    else if(operator == '/')
+    if(b!=0){
     result= a/b;
     printf("%d",result);}
     else{
