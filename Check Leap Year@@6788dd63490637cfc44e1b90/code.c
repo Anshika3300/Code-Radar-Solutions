@@ -1,7 +1,7 @@
 #incldue<stdio.h>
 int main(){
     int year;
-    scanf("%d",year);
+    scanf("%d",&year);
     if(year==4){
         if(year==100){
             if(year==400){
