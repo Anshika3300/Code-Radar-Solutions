@@ -9,8 +9,9 @@ int main(){
         char ch=(char)d;
         printf("%c ",ch);
         a++;
+        printf("\n");
         }
-    }printf("\n");
+    }
     
     return 0;
 }
