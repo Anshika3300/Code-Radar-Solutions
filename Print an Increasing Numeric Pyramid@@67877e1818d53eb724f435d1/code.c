@@ -17,5 +17,5 @@ int main(){
         printf("\n");
         no+=2;
     }
-    return0;
+    return 0;
 }
